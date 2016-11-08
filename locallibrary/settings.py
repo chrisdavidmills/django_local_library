@@ -143,3 +143,5 @@ STATIC_URL = '/static/'
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+ALLOWED_HOSTS = ['https://safe-everglades-82854.herokuapp.com','127.0.0.1']
